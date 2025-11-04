@@ -1,0 +1,7 @@
+# para evitar
+.myenv/
+myenv/
+*.log
+
+# Secret
+.env
