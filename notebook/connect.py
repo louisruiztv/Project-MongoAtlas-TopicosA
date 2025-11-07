@@ -22,5 +22,4 @@ except errors.ConnectionFailure as e:
     print("Fallo en la conexion", e)
 except Exception as e:
     print("Ocurrio un error inesperado:", e)
-finally:
-    client.close()
+
